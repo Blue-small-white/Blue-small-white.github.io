@@ -6,7 +6,7 @@
   <link href="https://blue-small-white.github.io/atom.xml" rel="self"/>
   
   <link href="https://blue-small-white.github.io/"/>
-  <updated>2020-10-07T12:16:35.421Z</updated>
+  <updated>2020-10-07T12:20:45.392Z</updated>
   <id>https://blue-small-white.github.io/</id>
   
   <author>
@@ -17,16 +17,16 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Introduction  to linear algebra</title>
-    <link href="https://blue-small-white.github.io/2020/09/02/Introduction%20to%20linear%20algebra/"/>
-    <id>https://blue-small-white.github.io/2020/09/02/Introduction%20to%20linear%20algebra/</id>
-    <published>2020-09-02T08:05:00.556Z</published>
-    <updated>2020-10-07T12:16:35.421Z</updated>
+    <title>Introduction to linear algebra</title>
+    <link href="https://blue-small-white.github.io/2020/10/07/introduction%20to%20linear%20algebra/"/>
+    <id>https://blue-small-white.github.io/2020/10/07/introduction%20to%20linear%20algebra/</id>
+    <published>2020-10-07T12:19:16.467Z</published>
+    <updated>2020-10-07T12:20:45.392Z</updated>
     
-    <content type="html"><![CDATA[<p>Linear algebra is an important compornent of undergraduate mathematics,particularly for students majoring in the scientific, engeering, and social science disciplines.   </p><a id="more"></a><h1 id="文章结构"><a href="#文章结构" class="headerlink" title="文章结构"></a>文章结构</h1><h2 id="神经网络中的数学思想"><a href="#神经网络中的数学思想" class="headerlink" title="神经网络中的数学思想"></a>神经网络中的数学思想</h2><h2 id="神经网络实现所需的Python编程知识"><a href="#神经网络实现所需的Python编程知识" class="headerlink" title="神经网络实现所需的Python编程知识"></a>神经网络实现所需的Python编程知识</h2><h2 id="神经网络性能改进"><a href="#神经网络性能改进" class="headerlink" title="神经网络性能改进"></a>神经网络性能改进</h2><h1 id="详解"><a href="#详解" class="headerlink" title="详解"></a>详解</h1><h2 id="数学思想"><a href="#数学思想" class="headerlink" title="数学思想"></a>数学思想</h2><p>问题1：人工智能探讨的是什么类型的问题？<br><strong>关键</strong>：计算机的核心部分是计算器，计算机可以遵循基本指令以相当快的速度完成大规模加法运算。但是，在某些任务上，传统的计算机在完成结果和效率方面远远无法与人类相比。人工智能所探讨的就是 “如何利用计算机在速度上的优势，让计算机在完成某些任务时，能够表现得和人一样出色。”<br><em>注</em> ：计算机并不会真的思考，它只是一个得到包装的计算器。   </p><p><img src="/2020/09/02/Introduction%20to%20linear%20algebra/p1.jpeg" alt="机器"></p><p>问题2：什么是误差值？<br><strong>解析</strong>：误差值 = 真实值 - 计算值。注：神经网络学习的核心过程就是根据误差值来指导模型参数的修正，使得机器的输出值越来越接近正确的答案。<br><strong>关键</strong>：首先，神经网络是一个 “有输入，有输出，并在输入和输出之间存在某种类型计算” 的计算系统。其次，我们并不能精确知道现实中一些有趣的事情的内部是如何运作的，但是我们可以利用模型来估计。最后，改进模型以使得模型的模拟结果逼近真正的运作方式的一种好方法是根据误差值修正参数。 </p><p>问题3：什么是预测器？什么是分类器？<br><strong>解析</strong>：预测器指的是一个 “接受输入，做出应有的预测并输出结果” 的机器，最简单的表形式如线性函数。分类器与预测器表现形式差别不大，可以利用预测器应用到分类任务中，即为分类器。当利用线性分类器做分类任务时，如何调整分界线的斜率以达到期望中的分类效果？这里我们引入学习率的概念。通过设置学习率参数，控制改进程度。<br><strong>关键</strong>：第一，对线性分类器而言，在任何程度上调整斜率，可以消除输出误差值；第二，使用朴素的调整方法对模型参数进行调整时会出现一个问题，即改进后的模型只与最后一次训练样本最匹配，有必要引入学习率对模型进行适度调整。</p><p>问题4：线性分类器的局限在哪？为什么要在讨论神经网络之前说明线性分类器的局限？<br><strong>关键</strong>：如果数据本身不是由单一线性过程支配，那么一个简单的线性分类器就无法做到对数据进行划分。此时，使用多个线性分类器来划分单一线性分类器无法分离的数据的解决方法出现了，这也是神经网络的核心思想。</p>]]></content>
+    <content type="html"><![CDATA[<p>Linear algebra is an important compornent of undergraduate mathematics,particularly for students majoring in the scientific, engeering, and social science disciplines. </p><a id="more"></a><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
     
-    <summary type="html">&lt;p&gt;Linear algebra is an important compornent of undergraduate mathematics,particularly for students majoring in the scientific, engeering, and social science disciplines.   &lt;/p&gt;</summary>
+    <summary type="html">&lt;p&gt;Linear algebra is an important compornent of undergraduate mathematics,particularly for students majoring in the scientific, engeering, and social science disciplines. &lt;/p&gt;</summary>
     
     
     
