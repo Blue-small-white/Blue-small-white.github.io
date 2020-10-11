@@ -6,7 +6,7 @@
   <link href="https://blue-small-white.github.io/atom.xml" rel="self"/>
   
   <link href="https://blue-small-white.github.io/"/>
-  <updated>2020-10-07T12:20:45.392Z</updated>
+  <updated>2020-10-10T09:31:37.303Z</updated>
   <id>https://blue-small-white.github.io/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Thinking in complexity</title>
+    <link href="https://blue-small-white.github.io/2020/10/10/thinking%20in%20complexity/"/>
+    <id>https://blue-small-white.github.io/2020/10/10/thinking%20in%20complexity/</id>
+    <published>2020-10-10T09:09:00.059Z</published>
+    <updated>2020-10-10T09:31:37.303Z</updated>
+    
+    <content type="html"><![CDATA[<p>What is complex system ? What is complexity science ? What is complexity in 21th century ?</p><a id="more"></a><h2 id="What-is-complex"><a href="#What-is-complex" class="headerlink" title="What is complex ?"></a>What is complex ?</h2><h3 id="1-simple-system"><a href="#1-simple-system" class="headerlink" title="(1) simple system"></a>(1) simple system</h3><p>按照系统组成单元数以及单元之间的相互作用强弱程度来区分：当系统内部单元数不多，且单元之间联系不紧密，表现为单元间的连线不多时，即所谓的简单系统。</p><h3 id="2-disordered-system"><a href="#2-disordered-system" class="headerlink" title="(2) disordered system"></a>(2) disordered system</h3><p>按照系统组成单元数以及单元之间的相互作用强弱程度来区分：当系统内部单元数很多，但是单元间联系不紧密，表现为单元间的连线不多甚至完全没有时，即所谓的无序随机系统。</p><h3 id="3-complex-system"><a href="#3-complex-system" class="headerlink" title="(3) complex system"></a>(3) complex system</h3><p>按照系统组成单元数以及单元之间的相互作用强弱程度来区分：当系统内部单元数不多，但是单元间相互作用很强时，即所谓的复杂系统。</p><p>注：复杂系统的复杂性恰恰就体现在单元之间的相互作用和相互联系上。从某种意义上来说，研究复杂系就是在研究系统单元之间的相互联系，而不是研究单元实体。</p><h2 id="What-is-Complexity-science"><a href="#What-is-Complexity-science" class="headerlink" title="What is Complexity science ?"></a>What is Complexity science ?</h2><p> 注：系统科学与复杂性科学之间是存在一定区别的。</p><h3 id="1-系统科学"><a href="#1-系统科学" class="headerlink" title="(1) 系统科学"></a>(1) 系统科学</h3><p>系统科学相对于复杂性科学</p><h3 id="2-复杂性科学"><a href="#2-复杂性科学" class="headerlink" title="(2) 复杂性科学"></a>(2) 复杂性科学</h3>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;What is complex system ? What is complexity science ? What is complexity in 21th century ?&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Introduction to linear algebra</title>
